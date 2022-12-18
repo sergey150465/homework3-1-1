@@ -6,7 +6,7 @@ public class Main {
         Calculator calc = Calculator.instance.get();
         int a = calc.plus.apply(1, 2);
         int b = calc.minus.apply(1, 1);
-        if (calc.nullCheck.apply(b) == 0) {
+        if (calc.devide.apply(a, b) == 0) {
             System.out.println("Ошибка, деление на ноль!");
             return;
         }
